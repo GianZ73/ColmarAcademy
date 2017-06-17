@@ -1,3 +1,13 @@
+/* UNIVERSAL STYLES */
+
+body {
+    color: rgb(74,74,74);
+}
+
+.grey-font {
+    color: rgb(192,192,192);
+}    
+
 /* HEADER */
 
 header {
@@ -20,7 +30,33 @@ nav {
 }
 
 header nav a {
-    color: black;
+    color: rgb(74,74,74);
     text-decoration: none;
-    margin: 8px;
+    margin: auto 8px;
+}
+
+/* BANNER - Learn something new everyday */
+
+.banner {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(216,216,216);
+    justify-content: flex-start;
+}
+
+.banner img {
+    width: 60%;
+    margin: 32px 40px 32px 24px;
+}
+
+.banner_info {
+    width: 300px;
+}
+
+.start-here {
+    color: rgb(255,255,255);
+    background-color: rgb(74,74,74);
+    padding: 8px;
+    text-align: center;
 }
